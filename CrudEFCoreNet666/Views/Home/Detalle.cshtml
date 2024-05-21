@@ -1,0 +1,23 @@
+﻿@model CrudEFCoreNet666.Models.Usuari
+@{
+    ViewData["Title"]="Detalle usuario";
+}
+
+<h1 class="text-center"> CRUD Usuarios</h1> 
+ <div class="row">
+    <div class="col-12">
+      <div class="card border">
+        <div class="card-header">
+           <h3><strong>Detalle usuario</strong> </h3> 
+        </div>
+        <div class="card-body"> 
+             <ul class="list—group"> 
+                     <li class="list-group-item"><strong>"Nombre" </strong>@Html.DisplayFor(m =>m.Nombre)</li>
+                     <li class="list-group-item"><strong>"Telefono" </strong>@Html.DisplayFor(m =>m.Telefono)</li>
+                     <li class="list-group-item"><strong>"Celular" </strong>@Html.DisplayFor(m =>m.Celular)</li>
+                     <li class="list-group-item"><strong>"Email" </strong>@Html.DisplayFor(m =>m.Email)</li>
+                  </ul> 
+                  </div>
+                  </div>
+                  </div>
+                  </div>

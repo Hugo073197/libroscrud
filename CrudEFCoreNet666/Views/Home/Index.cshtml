@@ -1,0 +1,93 @@
+﻿@model IEnumerable<CrudEFCoreNet666.Models.Usuari>
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<h1 class="text-center"> Usuarios</h1>
+<div class="row">
+    <div class="col-12">
+      <div class="float-right">
+     <a asp-action="Crear" asp-controller="Home" class="btn btn-success"><i class="bi bi-plus-square-fill"></i>Nuevo Usuario</a>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card border">
+           <div class="card-header">
+            <h3><strong>Lista de usuario</strong> </h3>
+            </div>
+            <div class="card-body">
+                <div class="table-resposive">
+                   @if (Model.Count() > 0)
+                    {
+                        <table class="table table-bordered" id="tbUsuari" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(m=>m.Id)</th>
+                                    <th>@Html.DisplayNameFor(m=>m.Nombre)</th>
+                                    <th>@Html.DisplayNameFor(m=>m.Telefono)</th>
+                                    <th>@Html.DisplayNameFor(m=>m.Celular)</th>
+                                    <th>@Html.DisplayNameFor(m=>m.Email)</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(m=>item.Id)</td>
+                                        <td>@Html.DisplayFor(m=>item.Nombre)</td>
+                                        <td>@Html.DisplayFor(m=>item.Telefono)</td>
+                                        <td>@Html.DisplayFor(m=>item.Celular)</td>
+                                        <td>@Html.DisplayFor(m=>item.Email)</td>
+                                        <td>
+                                            <a class="btn btn-primary" asp-action="Editar" asp-route-id="@item.Id"><i class="bi bi-pencil-fill"></i>Editar</a>
+                                            <a class="btn btn-secondary" asp-action="Detalle" asp-route-id="@item.Id"><i class="bi bi-info-circle-fill"></i>Detalle</a>
+                                            <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@item.Id"><i class="bi bi-eraser-fill"></i>Borrar</a>
+                                            </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        
+                    }
+                   </div>
+                  </div>
+                 </div>
+        </div>
+        </div> 
+
+@section Scripts{
+  <script>
+$(document).ready(function() {
+    //llama a la datatable
+    $('#tbUsuari').DataTable({
+        lenguage: {
+            "decimal": "",
+            "emptyTable": "No hay informacion",
+            "info": "mostrar _START_ a _END_ de _TOTAL_ Entradas",
+            "infoEmpty": "mostrando 0 to 0 of 0 entradas",
+            "infoFiltered": "(Filtrado de _MAX_ total entradas)",
+            "infoPostFix": "",
+            "thousands": ",",
+            "lengthMenu": "Mostrar _MENU_ ENTRADAS",
+            "loadingRecords": "Cargando....",
+            "processing": "procesando....",
+            "search": "Buscar:",
+            "zeroRecords": "sin resultados encontrados ",
+            "paginate": {
+                "first": "Primero",
+                "last": "Ultimo",
+                "next": "Siguiente",
+                "previous": "Anterior"
+            }
+        }
+    });
+});
+</script>
+}
