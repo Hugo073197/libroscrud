@@ -59,14 +59,3 @@ C:\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\ref
 C:\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.pdb
 C:\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.genruntimeconfig.cache
 C:\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\ref\CrudEFCoreNet666.dll
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.csproj.AssemblyReference.cache
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.AssemblyInfoInputs.cache
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.AssemblyInfo.cs
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.csproj.CoreCompileInputs.cache
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.RazorAssemblyInfo.cache
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.RazorAssemblyInfo.cs
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.dll
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\refint\CrudEFCoreNet666.dll
-C:\Users\arman\Desktop\tsu202\AplicacionesWeb\CrudEFCoreNet666\CrudEFCoreNet666\obj\Debug\net6.0\CrudEFCoreNet666.pdb
