@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj": {}
+    "C:\\Users\\arman\\Desktop\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj": {}
   },
   "projects": {
-    "C:\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj": {
+    "C:\\Users\\arman\\Desktop\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\Desktop\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj",
         "projectName": "CrudEFCoreNet666",
-        "projectPath": "C:\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj",
+        "projectPath": "C:\\Users\\arman\\Desktop\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\CrudEFCoreNet666.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\obj\\",
+        "outputPath": "C:\\Users\\arman\\Desktop\\tsu202\\AplicacionesWeb\\CrudEFCoreNet666\\CrudEFCoreNet666\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,10 +66,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }

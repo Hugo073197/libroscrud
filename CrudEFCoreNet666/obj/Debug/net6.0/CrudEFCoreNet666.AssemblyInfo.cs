@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudEFCoreNet666")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d64b2e030f56fd456c3426820cd4e8703a99d948")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudEFCoreNet666")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudEFCoreNet666")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
